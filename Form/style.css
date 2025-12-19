@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+   background-image: url("/02.jpeg");
+   background-size: cover;
+}
+
+#a1{
+    color: black;
+}
