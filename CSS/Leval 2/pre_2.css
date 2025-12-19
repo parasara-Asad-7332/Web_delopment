@@ -1,0 +1,26 @@
+*{
+    color: white;
+}
+
+#Nev{
+    height: 60px;
+    background-color: #0f1110;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#text{
+    color: #0f1110;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 180px;
+    text-decoration: none;
+}

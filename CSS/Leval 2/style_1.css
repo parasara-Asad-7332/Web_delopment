@@ -1,0 +1,26 @@
+div
+{
+    height: 20px;
+    width: 80px;
+    background-color: rgb(137, 137, 232);
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+    text-align: center;
+}
+h1{
+    width: 150px;
+    /* border-color: aqua;
+    border-width: 3px;
+    border-style: solid; */
+    border: 3px solid aqua;  /*same as uper*/
+    border-color: chartreuse;
+    background-color: blueviolet;
+    text-align: center;
+}
+button{
+    color: aqua;
+    border: rgb(10, 239, 44);
+    background-color: blueviolet;
+    text-align: center;
+}

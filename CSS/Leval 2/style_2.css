@@ -1,0 +1,13 @@
+div{
+    width: 80px;
+    height: 100px;
+    background-color: rgb(58, 105, 162);
+    border: 2px solid #05e1e1;
+    /* border-radius: 15px; */
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px; */
+    padding: 25px;
+    margin:25px ;
+}

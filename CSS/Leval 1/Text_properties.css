@@ -1,0 +1,27 @@
+/* p{
+  text-align: center;   
+   text-align: right;   
+   text-align: left;  
+} */
+/* h1{
+    text-align: center;
+    text-decoration: rgb(15, 216, 220) underline; */
+/* } */
+a{
+    text-decoration: none;
+}
+#h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: lighter;
+}
+#h4{
+    font-weight: 400;
+}
+#post{
+    font-family: cursive;
+}

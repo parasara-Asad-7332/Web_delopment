@@ -1,0 +1,42 @@
+.post{
+    height: 100px;
+    width: 100px;
+    color: #f08804;
+    border:2px solid black;
+    display: inline-block;
+}
+#content{
+    height: 720px;
+}
+*{
+    color: white;
+}
+
+#Nev{
+    height: 60px;
+    background-color: #0f1110;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#text{
+    color: #0f1110;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 180px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
