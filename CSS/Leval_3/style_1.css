@@ -1,0 +1,28 @@
+div{
+    height: 80px;
+    width: 80px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+    background-color: aqua;
+}
+#box2{
+    background-color: greenyellow;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    right: 10px;
+}
+#box3{
+    background-color: rgb(56, 5, 164);
+    position: absolute;
+    top: 30px;
+}
+
+#box4{
+    background-color: red;
+    position: fixed;
+}

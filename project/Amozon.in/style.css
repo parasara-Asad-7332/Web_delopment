@@ -1,20 +1,37 @@
 .post{
     height: 250px;
-    width:auto;
-    color: #f08804;
-    border:2px;
-    border-color: #0f1110;
-    border-style: solid;
+    width: auto;
+    border: 2px solid #0f1110;
     display: inline-block;
-    margin: 20px;
+    padding: 5px;
 }
 
-#pre{
-    width: 25px;
-    height: auto;
-    /* display: flex; justify-content: center; */
-    
+.buy1{
+    position:absolute;
+    top:420px;
+    left: 100px;
 }
+.buy2{
+    position:absolute;
+    top:420px;
+    left: 350px;
+}
+.buy3{
+    position:absolute;
+    top:420px;
+    left: 600px;
+}
+.buy4{
+    position:absolute;
+    top:420px;
+    left: 830px;
+}
+.buy5{
+    position:absolute;
+    top:420px;
+    left: 1080px;
+}
+
 #content{
     height: 720px;
 }
