@@ -5,9 +5,15 @@ div{
     display: inline-block;
 }
 
+body{
+    background-image: url("3d_1.jpg");
+    background-size: cover;
+}
 #box1{
     position: static;
     background-color: aqua;
+    background-image: url("3d.jpg");
+    background-size: cover;
 }
 #box2{
     background-color: greenyellow;
@@ -25,4 +31,5 @@ div{
 #box4{
     background-color: red;
     position: fixed;
+    bottom: 0;
 }

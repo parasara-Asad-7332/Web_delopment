@@ -1,36 +1,22 @@
 .post{
     height: 250px;
     width: auto;
-    border: 2px solid #0f1110;
+    border: 4px solid #0f1110;
     display: inline-block;
     padding: 5px;
+    position: relative;
 }
 
-.buy1{
+.buy{
     position:absolute;
-    top:420px;
-    left: 100px;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 30px;
+    width: 50px;
+    
 }
-.buy2{
-    position:absolute;
-    top:420px;
-    left: 350px;
-}
-.buy3{
-    position:absolute;
-    top:420px;
-    left: 600px;
-}
-.buy4{
-    position:absolute;
-    top:420px;
-    left: 830px;
-}
-.buy5{
-    position:absolute;
-    top:420px;
-    left: 1080px;
-}
+
 
 #content{
     height: 720px;
