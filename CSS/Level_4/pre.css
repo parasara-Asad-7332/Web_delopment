@@ -1,0 +1,27 @@
+.nev{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: auto; 
+}
+
+#post{
+   text-decoration: none;
+   font-size: 25px; 
+}
+
+.outter{
+    background-color: blueviolet;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+}

@@ -1,0 +1,17 @@
+.container{
+    border: 2px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+}
+
+.class{
+    border: 2px solid rgb(55, 179, 21);
+    height: 55px;
+    width: 55px;
+}
+
+#box4{
+    grid-row:1/2;
+    grid-column: 1/2;
+}

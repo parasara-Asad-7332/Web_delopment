@@ -1,8 +1,8 @@
-*{
-    text-align: center;
-    top:50px;
-    left: 100px;
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
 }
 #E-mail{
     border: 2px solid blue;
@@ -11,5 +11,7 @@
 }
 #password{
     border: 2px solid blue;
+    height: 25px;
+    width: 200px;
     
 }

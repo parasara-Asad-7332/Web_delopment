@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(177, 148, 148);
+}
+.Nev{
+    background-color: rgb(24, 31, 31);
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: auto;
+}
+
+#item{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.box1{
+    background-color: aqua;
+    height: 90vh;
+    width: 206.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Welcome.jpg");
+    background-size: cover;
+}
+.text1{
+    color: black;
+    font-size: 50px;
+}
+.box2{
+    height: 60vh;
+    width: 206.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    height: 60vh;
+    width: auto;
+    border-radius: 30px;
+    margin-left: 10vh ;
+}
+.text2{
+    height: 60vh;
+    width: 80vh;
+    margin-right:35vh ;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    text-decoration: none;
+}
