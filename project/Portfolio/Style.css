@@ -1,6 +1,8 @@
 body{
     background-color: rgb(177, 148, 148);
 }
+
+/*For Home Page*/
 .Nev{
     background-color: rgb(24, 31, 31);
     display: flex;
@@ -50,4 +52,36 @@ body{
     align-items: center;
     font-size: 40px;
     text-decoration: none;
+}
+.box3{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text3{
+    height: 30vh;
+    width: 200vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    color: white;
+    display: flex;
+    bottom: 0px;
+    background-color: black;
+    height: 28vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/*Project page*/
+
+.box4{
+    height: 50vh;
+    width: auto;
+    background-color: blue;
 }
