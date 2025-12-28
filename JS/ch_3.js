@@ -12,3 +12,15 @@
 // }
 
 
+//string
+// let str="Asad";
+// let str2="asad";
+// console.log(str)
+
+let object = {
+    name:"pen",
+    price: 10,
+}
+
+let answer = `The object is ${object.name} and price is ${object.price}`
+console.log(answer);

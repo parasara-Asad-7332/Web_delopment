@@ -105,11 +105,18 @@ body{
 .logo1{
     top: 0px;
     background-color: rgb(177, 15, 69);
-    height: 25vh;
-    width: 25vh;
+    height: 10vh;
+    width: 10vh;
 }
 /* .url{
     background-color: gold;
     height: 10vh;
     width: 35vh;
 } */
+
+.box5{
+    height: 10vh;
+    width: 50vh;
+    background-color: blueviolet;
+}
+
