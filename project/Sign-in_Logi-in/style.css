@@ -1,17 +1,27 @@
-body{
+.box1{
+    height: 97vh;
+    width: auto;
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    background-image: url(/img1.jpg);
+    background-size: cover;
 }
-#E-mail{
-    border: 2px solid blue;
-    height: 25px;
-    width: 200px;
+
+.box2{
+    height: 60vh;
+    width: 60vh;
+    background-color: rgb(66, 166, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#password{
-    border: 2px solid blue;
-    height: 25px;
-    width: 200px;
-    
+.box3{
+    height: 5vh;
+    width: 30vh;
+}
+.text1{
+    font-size: large;
+    border: 2px solid black;
 }

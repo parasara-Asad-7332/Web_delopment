@@ -20,7 +20,7 @@ body{
 .box1{
     background-color: aqua;
     height: 90vh;
-    width: 206.5vh;
+    width:auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,35 @@ body{
 /*Project page*/
 
 .box4{
-    height: 50vh;
+    height: 100vh;
     width: auto;
     background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+.text4{
+    background-color: brown;
+    height: 90vh;
+    width: 90vh;
+}
+.img2{
+    background-color: chartreuse;
+    height: 90vh;
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo1{
+    top: 0px;
+    background-color: rgb(177, 15, 69);
+    height: 25vh;
+    width: 25vh;
+}
+/* .url{
+    background-color: gold;
+    height: 10vh;
+    width: 35vh;
+} */

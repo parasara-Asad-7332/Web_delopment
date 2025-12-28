@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+.box1{
+    height: 100vh;
+    width: auto;
+    background-color: rgb(52, 165, 44);
+    display: flex;
+}
+
+.img1{
+    background-color: rgb(36, 37, 37);
+    height:730px;
+    width: 1000px;
+}
+
+#img1{
+    height: 730px;
+    width: 1000px;
+    border: 1px solid black;
+}
+.box2{
+    background-color: white;
+    height: 25px;
+    width: 25px;
+}
+.img2{
+    background-color:white;
+    height: 40vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#img2{
+    background-color: white;
+    height: 35vh;
+    width: 45vh;
+    
+}
+#logo{
+    height: auto;
+    width: 50vh;
+}
