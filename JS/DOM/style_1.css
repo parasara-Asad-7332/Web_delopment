@@ -1,0 +1,14 @@
+h1{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(170, 236, 104);
+}
+
+Button{
+    color: blue;
+    background-color: cadetblue;
+    font-size: 15px;
+}
