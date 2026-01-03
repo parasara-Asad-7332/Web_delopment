@@ -1,0 +1,16 @@
+div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.pa{
+    background-color: aqua;
+    color: blue;
+}
+
+.new{
+    background-color: blue;
+    color: rgb(225, 32, 32)
+}
