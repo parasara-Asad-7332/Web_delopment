@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+p{
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* GAME ICONS */
+.game{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;   /* 🔥 mobile ke liye */
+    margin-top: 20px;
+}
+
+.game img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.game img:hover{
+    transform: scale(1.1);
+}
+
+/* RESULT TEXT */
+#result{
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* IMAGE RESULT BOX */
+.box1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box2{
+    width: 90%;
+    max-width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 📱 Mobile screens */
+@media (max-width: 600px){
+    .game img{
+        width: 90px;
+        height: 90px;
+    }
+
+    #result{
+        font-size: 20px;
+    }
+
+    .box2{
+        height: 160px;
+    }
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.box2{
+    animation: pop 0.4s ease;
+}
+
+@keyframes pop{
+    0%{ transform: scale(0.8); opacity: 0; }
+    100%{ transform: scale(1); opacity: 1; }
+}
+
+.box3{
+    height: 25px;
+}
+
+#b1{
+    height: 30px;
+    width: 60px;
+    color: rgb(18, 17, 17);
+    background-color: cadetblue;
+}
