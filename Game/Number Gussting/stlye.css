@@ -1,0 +1,104 @@
+.box1{
+    display: flex;
+    justify-content: center;
+}
+
+.box2{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box3{
+    background-color: white;
+    height: 60vh;
+    width: 60vh;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.txt1{
+    height: 30px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.txt2{
+    height: 30px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.txt3{
+    height: 40px;
+    width: 440px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txt4{
+    height: 40px;
+    width: 440px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt5{
+    height: 40px;
+    width: 440px;
+    display: flex;
+    justify-content: center;
+}
+
+#b1{
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#b2{
+    align-items: center;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+    height: 40px;
+}
+
+#user{
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+button{
+    height: 30px;
+    width: 90px;
+}
+
+
+/* Ai code */
+
+    body{
+        margin:0;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#408f40;
+        animation: glow 6s ease-in-out infinite;
+    }
+
+    @keyframes glow{
+        0%{
+            box-shadow: inset 0 0 100px #05ff65;
+        }
+        50%{
+            box-shadow: inset 0 0 200px #29b92c;
+        }
+        100%{
+            box-shadow: inset 0 0 100px #20d617;
+        }
+    }

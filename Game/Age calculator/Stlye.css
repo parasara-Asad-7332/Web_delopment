@@ -1,0 +1,35 @@
+.box1{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box2{
+    height: 60vh;
+    width: 70vh;
+    background-color: rgb(224, 205, 205);
+    border: 2px solid black;
+    border-radius: 50px ;
+    border-color: black;
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#input{
+    height: 25px;
+    width: 30vh;
+}
+
+.btn{
+    height: 25px;
+    width: 15vh;
+}
