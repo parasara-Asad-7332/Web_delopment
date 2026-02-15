@@ -1,0 +1,113 @@
+body{
+    background-color: aqua;
+}
+
+
+.box{
+    height: 50vh;
+    width: 50vw;
+    background-color: rgb(191, 159, 222);
+    margin: 100px auto;
+    border: 2px solid black;
+    display: flex;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: aqua;
+    position:relative;
+    animation: first 6s linear infinite;
+}
+.box1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.box2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: aqua;
+    position:relative;
+    animation: second 6s linear infinite;
+}
+
+ /* @keyframes first{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    50%{
+        top: calc(45vh - 100px);
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+@keyframes second{
+    0%{
+        top: 0px;
+        left: calc(50vw - 205px);
+    }
+    50%{
+        top: calc(50vh - 20px);
+        left: calc(50vw - 205px);
+    }
+    100%{
+        top: 0px;
+        left: calc(50vw - 205px);
+    }
+}  */
+.outter{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(87, 87, 228);
+    border-radius: 50%;
+    position: relative;
+    animation-name: main;
+    animation-duration: 12s;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
+}
+@keyframes main{
+    0%{
+        top: 0px;
+        left: 0px;
+        border: 2px solid rgb(87, 87, 228);
+        box-shadow: 10px 5px 2px rgb(87, 87, 228);
+    }
+    25%{
+        top: 0px;
+        left: 93.8%;
+        box-shadow: 10px 10px 10px rgb(87, 87, 228);
+    }
+    50%{
+        top: 83.8vh;
+        left: 93.8%;
+        box-shadow: 10px 10px 10px rgb(87, 87, 228);
+    }
+    75%{
+        left: 0px;
+        top: 83.8vh;
+        box-shadow: 10px 10px 10px rgb(87, 87, 228);
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        box-shadow: 10px 10px 10px rgb(87, 87, 228);
+    }
+
+
+}
+

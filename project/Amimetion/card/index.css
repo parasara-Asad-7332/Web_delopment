@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    height: 60vh;
+    width: 50vh;
+    position: relative;
+    /* perspective: 1000px;        3D depth */
+}
+
+/* both sides common */
+.box1, .box2{
+    position:absolute;
+    width:100%;
+    height:100%;
+    /* display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px; */
+    backface-visibility: hidden; /* hide mirror */
+    transition: transform 1.2s;
+}
+.box1 img{
+    border-radius: 25px;
+}
+
+.box2{
+    border-radius: 25px;
+    background-color: rgb(0, 255, 55);
+    transform: rotateY(180deg);
+}
+
+/* 🔥 flip on parent hover */
+.box:hover .box1{
+    transform: rotateY(180deg);
+}
+
+.box:hover .box2{
+    transform: rotateY(360deg);
+}

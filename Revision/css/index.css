@@ -1,0 +1,9 @@
+.outter{
+    background-color: aqua;
+    height: 50vh;
+    width: 50vh;
+    transition: 2s;
+}
+.outter:hover{
+    box-shadow: 3px 2px 3px 2px #EEAECA;
+}

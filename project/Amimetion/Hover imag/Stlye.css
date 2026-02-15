@@ -1,6 +1,6 @@
 
 .box{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 50vh;
     width: auto;
     display: flex;
@@ -77,6 +77,6 @@ background-image: linear-gradient(to top, #2ca6bd, #0092ce, #0079dd, #0059df, #3
     width: 40vh;
 }
 .box3:hover{
-    transform: scale3d(1.1,1.1,1.1) rotate3d(3,1,5,90deg);
+    transform: scale3d(1.1,1.1,1.1) rotate3d(3,1,5,360deg);
 }
 

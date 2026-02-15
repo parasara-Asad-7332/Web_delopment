@@ -4,47 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
-    <link rel="stylesheet" href="./stlye.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="box">
-    <div class="box1">
-        <h1>Welcome to Number guessing game</h1>
-    </div>
-    <br><br>
-    <div class="box2">
-        <div class="box3">
-            <div class="txt1" align="center">
-                Let play Game
+    <div class="container">
+        <header>
+            <h1>Number Guessing Game</h1>
+        </header>
+
+        <div class="game-card">
+            <div class="instruction">
+                <p class="subtitle">Let's Play!</p>
+                <p>Guess a number between 1 and 100</p>
             </div>
-            <br>
-            <div class="txt2" align="center">
-                Enter Between 1 To 100 Number
+
+            <div class="input-group">
+                <input id="user" type="number" placeholder="Enter your guess...">
             </div>
-            <br>
-            <div class="input" align="center">
-                <label for="input"></label>
-                    <input id="user" type="number" placeholder="Enter Number 1 to 100">
+
+            <div class="button-group">
+                <button id="b1" class="btn primary">Check</button>
             </div>
-            <br><br>
-            <div class="button" align="center">
-                <button id="b1">Enter</button>
+
+            <div class="message-area">
+                <p id="text">Good luck!</p>
+                <p id="count">Guesses: 0</p>
             </div>
-            <br><br>
-            <div class="txt3" align="center">
-                <p id="text">Try now</p>
+
+            <div class="footer">
+                <button id="b2" class="btn secondary">Reset Game</button>
             </div>
-            <div class="txt4" align="center">
-                <p id="count">Count is:</p>
-            </div>
-            <br><br>
-            <div class="txt5">
-            <button id="b2">Reset</button>
-            </div>
-            <br><br>
         </div>
     </div>
-    </div>
-    <script src="./scrip.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

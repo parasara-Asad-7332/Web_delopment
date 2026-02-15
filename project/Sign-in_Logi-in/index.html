@@ -3,18 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-in</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Asad web</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="box1">
-        <div class="box2">
-            <div class="box3">
-                <label class="text1" for="Username">
-                    <input id="text1" placeholder="Enter Username" type="text">
-                </label>
+
+<div class="box1">
+    <div class="box2">
+        <h3>Login</h3>
+
+        <div class="input1">
+
+            <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="E-mail"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required
+            >
+
+            <input 
+                type="password" 
+                id="password" 
+                placeholder="Password"
+                pattern=".{6,}"
+                title="Password must be at least 6 characters"
+                required
+            >
+
+            <div class="options">
+                <div>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Show password</label>
+                </div>
+                <a href="#" id="fp">Forget password</a>
             </div>
+
+            <input type="submit" value="Login">
+
+            <p>New Register ? <a href="#">Sign up</a></p>
+
         </div>
     </div>
+</div>
+    <script src="./show.js"></script>
 </body>
 </html>
